@@ -1,6 +1,6 @@
 * {box-sizing:border-box}
 .body {
-  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSglh7gjRwBJMi_LG3yH-TYOUDia9qgVUql17zS9Mq2Iu3PpVBc&s");
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNNmxvESuF_CjWcr3adNf1fruHAbC19PJc1S6mG2Dx16VkxuTy&s");
   transition: 10s;
   width: 98%;
   height: 50%;
@@ -42,16 +42,16 @@ p {
   text-align: center;
 }
 body{
-	background-color:#FFF;
+  background-color:#FFF;
     font-family: "Lato", sans-serif;
     font-weight: 300;
-	font-size:16px;
-	line-height:18px;
-	color:#777;
+  font-size:16px;
+  line-height:18px;
+  color:#777;
 }
 
 p{
-	margin:0;
+  margin:0;
 }
 
 a {
@@ -59,13 +59,13 @@ a {
 }
 
 a, a:hover, a:focus{
-	text-decoration: none;
-	outline: 0;
+  text-decoration: none;
+  outline: 0;
 }
 h1, h2, h3,
 h4, h5, h6 {
     color: #333;
-	margin:0;
+  margin:0;
     font-weight: normal;
 }
 
@@ -73,7 +73,7 @@ h1 { font-size: 28px;}
 h2 { font-size: 24px;}
 h3 { font-size: 18px;}
 h5 { font-size: 16px;}
-h6 { font-size: 14px;}
+h6 { font-size: 4px;}
 
 strong {
   letter-spacing: 1px;
@@ -138,11 +138,9 @@ section p {
     padding: 20px 0;
 }
 
-
 .main-content section {
   margin: 0 5%;
 }
-
 
 .left-sidebar {
     background-color:#8345E3;
@@ -184,7 +182,6 @@ section p {
     color: #000;
 }
 
-
 #main-wrapper {
     float: left;
     margin-left: 18%;
@@ -219,21 +216,21 @@ section p {
 }
 
 .author {
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid rgb(185, 83, 83);
     border-top: 1px solid #ddd;
     margin-top: 50px;
     padding: 30px 0;
 }
 
 .author-info {
-    font-size: 18px;
+    font-size:18px;
     line-height: 28px;
     margin: 0 auto;
     width: 50%;
 }
 
 .section-content {
-    font-size: 16px;
+    font-size: 40px;
     line-height: 25px;
 }
 
@@ -257,9 +254,14 @@ section p {
 }
 
 #twitter-feed img {
-    border: 1px solid #ddd;
+    border: 1px solid#ddd;
     box-shadow: 2px 3px 3px #ddd;
     height: auto;
     margin-top: 10px;
     max-width: 100%;
+}
+
+font {
+  size: 40px;
+  color: blue
 }
